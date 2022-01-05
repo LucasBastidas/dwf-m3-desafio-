@@ -218,6 +218,7 @@ body {
     display: flex;
     padding: 80px 80px;
     gap: 30px;
+    justify-content: space-between;
   }
 }
 .contenedor-computadora {
