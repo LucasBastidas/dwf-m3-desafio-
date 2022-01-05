@@ -1,0 +1,355 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.contenedor {
+  display: grid;
+  grid-template-rows: 616px 538px 1375px 660px 493px;
+}
+@media (min-width: 769px) {
+  .contenedor {
+    grid-template-rows: 616px 538px 604px 660px 346px;
+  }
+}
+
+.contenedor {
+  background-color: whitesmoke;
+}
+/* PRIMERA CAPA */
+
+.contenedor-bienvenida {
+  align-items: center;
+}
+.contenedor-logo-y-menu {
+  background-color: rgba(226, 231, 155, 0.589);
+  display: flex;
+
+  justify-content: space-between;
+  padding: 18px 25px;
+}
+@media (min-width: 769px) {
+  .contenedor-logo-y-menu {
+    padding: 30px 80px;
+  }
+}
+.logo {
+  width: 54px;
+  height: 50px;
+}
+@media (min-width: 769px) {
+  .logo {
+    width: 95px;
+    height: 109px;
+  }
+}
+.barritas-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+@media (min-width: 769px) {
+  .barritas-menu {
+    display: none;
+  }
+}
+.barrita {
+  background-color: black;
+  width: 36px;
+  height: 6px;
+}
+.contenedor-links {
+  display: none;
+  align-items: center;
+  justify-content: space-between;
+  width: 400px;
+}
+@media (min-width: 769px) {
+  .contenedor-links {
+    display: flex;
+  }
+}
+.link {
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.titulo {
+  font-family: "Open Sans";
+  font-size: 48px;
+  padding: 58px 42px;
+  text-align: center;
+  line-height: 48px;
+}
+@media (min-width: 769px) {
+  .titulo {
+    text-align: left;
+    width: 313px;
+    padding: 0px 0px;
+  }
+}
+.contenedor-mi-imagen {
+  display: flex;
+  justify-content: center;
+}
+@media (min-width: 769px) {
+  .contenedor-titulo-imagen {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 20px;
+  }
+}
+
+.mi-imagen {
+  width: 318px;
+  height: 300px;
+
+  padding: 20px 30px;
+}
+@media (min-width: 769px) {
+  .mi-imagen {
+    width: 395px;
+    height: 435px;
+    padding: 0px 0px;
+  }
+}
+/* PRESENTACION */
+.contenedor-presentacion {
+  background-color: black;
+}
+@media (min-width: 769px) {
+  .contenedor-presentacion {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding: 150px 250px;
+  }
+}
+.quien-soy {
+  font-family: "Open Sans";
+  font-size: 32px;
+  line-height: 43.58px;
+  text-align: center;
+  letter-spacing: -2px;
+  color: #fafafa;
+}
+@media (min-width: 769px) {
+  .quien-soy {
+    text-align: left;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+.parrafo {
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fafafa;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+@media (min-width: 769px) {
+  .parrafo {
+    font-family: Roboto;
+    font-size: 24px;
+    line-height: 28px;
+  }
+}
+.contenedor-imagen-presentacion {
+  display: flex;
+  justify-content: center;
+  padding: 70px 30px;
+}
+.imagen-presentacion {
+  width: 80px;
+  height: 80px;
+}
+@media (min-width: 769px) {
+  .imagen-presentacion {
+    width: 211px;
+    height: 211px;
+  }
+}
+
+.servicios {
+  background-color: whitesmoke;
+}
+
+.servicios-texto {
+  font-family: Open Sans;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: -2px;
+  text-align: center;
+}
+
+.contenedor-de-contenedor-computadora-y-texto {
+  display: grid;
+  gap: 100px;
+  padding-left: 57px;
+  padding-right: 57px;
+}
+
+@media (min-width: 769px) {
+  .contenedor-de-contenedor-computadora-y-texto {
+    display: flex;
+    padding: 80px 80px;
+    gap: 30px;
+  }
+}
+.contenedor-computadora {
+  display: flex;
+  justify-content: center;
+}
+
+.computadora {
+  width: 138px;
+  height: 128px;
+}
+.texto-computadora {
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.parrafo-computadora {
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+/* FORM  */
+
+.form {
+  background-color: black;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+}
+@media (min-width: 769px) {
+  .form {
+    display: flex;
+    padding: 100px 300px;
+    gap: 80px;
+  }
+}
+.text-field {
+  padding: 0px 20px;
+}
+
+.escribime {
+  color: white;
+  font-family: "Open Sans";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: -2px;
+  text-align: center;
+  padding-top: 40px;
+}
+@media (min-width: 769px) {
+  .escribime {
+    padding-top: 0px;
+    margin-top: 0px;
+
+    font-size: 48px;
+
+    line-height: 48px;
+    letter-spacing: -1px;
+    text-align: right;
+  }
+}
+.contenedor-de-contenedores {
+  padding-bottom: 30px;
+}
+.nombre-email-texto {
+  color: #fafafa;
+  font-family: Roboto;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.input {
+  height: 45px;
+  width: 335px;
+  left: 0px;
+  top: 0px;
+  border-radius: 4px;
+  border: 3px solid #2c2c2c;
+  font-size: 30px;
+}
+.textarea {
+  height: 113px;
+  width: 335px;
+  left: 20px;
+  top: 2896px;
+  border-radius: 0px;
+  font-size: 30px;
+}
+.contenedor-boton {
+  padding-top: 40px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.button {
+  background: #ffd953;
+  height: 45px;
+  width: 335px;
+  left: 0px;
+  top: 0px;
+  border-radius: 4px;
+}
+/* FOOTER */
+
+.footer {
+  background-color: #dbdbdb;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 20px;
+}
+@media (min-width: 769px) {
+  .footer {
+    flex-direction: row;
+    padding: 50px 80px;
+    justify-content: space-between;
+  }
+}
+.contenedor-redes {
+  display: grid;
+}
+.redes-palabra {
+  display: inline;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+}
