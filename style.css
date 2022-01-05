@@ -5,14 +5,7 @@ body {
   margin: 0;
   padding: 0;
 }
-.contenedor {
-  grid-template-rows: 616px 538px 1375px 660px 495px;
-}
-@media (min-width: 769px) {
-  .contenedor {
-    grid-template-rows: 616px 538px 604px 660px 346px;
-  }
-}
+
 
 .contenedor {
   background-color: whitesmoke;
